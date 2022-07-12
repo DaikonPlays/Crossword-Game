@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523EB23A287D27B900A91F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB239287D27B900A91F99 /* AppDelegate.swift */; };
+		523EB23C287D27B900A91F99 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB23B287D27B900A91F99 /* GameViewController.swift */; };
+		523EB23F287D27B900A91F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB23D287D27B900A91F99 /* Main.storyboard */; };
+		523EB242287D27B900A91F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB240287D27B900A91F99 /* LaunchScreen.storyboard */; };
+		523EB246287D27BA00A91F99 /* Crossword Puzzle.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 523EB245287D27BA00A91F99 /* Crossword Puzzle.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		523EB24C287D27BA00A91F99 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB24A287D27BA00A91F99 /* Interface.storyboard */; };
+		523EB252287D27BA00A91F99 /* Crossword Puzzle Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 523EB251287D27BA00A91F99 /* Crossword Puzzle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		523EB257287D27BA00A91F99 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB256287D27BA00A91F99 /* InterfaceController.swift */; };
+		523EB259287D27BA00A91F99 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB258287D27BA00A91F99 /* ExtensionDelegate.swift */; };
+		523EB262287D27BA00A91F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB261287D27BA00A91F99 /* AppDelegate.swift */; };
+		523EB264287D27BA00A91F99 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB263287D27BA00A91F99 /* GameViewController.swift */; };
+		523EB267287D27BA00A91F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB265287D27BA00A91F99 /* Main.storyboard */; };
+		523EB26A287D27BA00A91F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB268287D27BA00A91F99 /* LaunchScreen.storyboard */; };
+		523EB272287D27BA00A91F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB271287D27BA00A91F99 /* AppDelegate.swift */; };
+		523EB274287D27BA00A91F99 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB273287D27BA00A91F99 /* GameViewController.swift */; };
+		523EB277287D27BA00A91F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB275287D27BA00A91F99 /* Main.storyboard */; };
+		523EB279287D27BA00A91F99 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22E287D27B600A91F99 /* Actions.sks */; };
+		523EB27A287D27BA00A91F99 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22E287D27B600A91F99 /* Actions.sks */; };
+		523EB27B287D27BA00A91F99 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22E287D27B600A91F99 /* Actions.sks */; };
+		523EB27C287D27BA00A91F99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22F287D27B600A91F99 /* GameScene.sks */; };
+		523EB27D287D27BA00A91F99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22F287D27B600A91F99 /* GameScene.sks */; };
+		523EB27E287D27BA00A91F99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22F287D27B600A91F99 /* GameScene.sks */; };
+		523EB27F287D27BA00A91F99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523EB22F287D27B600A91F99 /* GameScene.sks */; };
+		523EB280287D27BA00A91F99 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB230287D27B600A91F99 /* GameScene.swift */; };
+		523EB281287D27BA00A91F99 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB230287D27B600A91F99 /* GameScene.swift */; };
+		523EB282287D27BA00A91F99 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB230287D27B600A91F99 /* GameScene.swift */; };
+		523EB283287D27BA00A91F99 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB230287D27B600A91F99 /* GameScene.swift */; };
+		523EB284287D27BA00A91F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523EB231287D27B900A91F99 /* Assets.xcassets */; };
+		523EB285287D27BA00A91F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523EB231287D27B900A91F99 /* Assets.xcassets */; };
+		523EB286287D27BA00A91F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523EB231287D27B900A91F99 /* Assets.xcassets */; };
+		523EB287287D27BA00A91F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523EB231287D27B900A91F99 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		523EB247287D27BA00A91F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523EB229287D27B500A91F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523EB244287D27BA00A91F99;
+			remoteInfo = "Crossword Puzzle watchOS App";
+		};
+		523EB253287D27BA00A91F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523EB229287D27B500A91F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523EB250287D27BA00A91F99;
+			remoteInfo = "Crossword Puzzle watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		523EB28D287D27BA00A91F99 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				523EB252287D27BA00A91F99 /* Crossword Puzzle Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB291287D27BA00A91F99 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				523EB246287D27BA00A91F99 /* Crossword Puzzle.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		523EB22E287D27B600A91F99 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		523EB22F287D27B600A91F99 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		523EB230287D27B600A91F99 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		523EB231287D27B900A91F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523EB236287D27B900A91F99 /* Crossword Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		523EB239287D27B900A91F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		523EB23B287D27B900A91F99 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		523EB23E287D27B900A91F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523EB241287D27B900A91F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		523EB245287D27BA00A91F99 /* Crossword Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		523EB24B287D27BA00A91F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		523EB251287D27BA00A91F99 /* Crossword Puzzle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Crossword Puzzle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		523EB256287D27BA00A91F99 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		523EB258287D27BA00A91F99 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		523EB25A287D27BA00A91F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523EB25F287D27BA00A91F99 /* Crossword Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		523EB261287D27BA00A91F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		523EB263287D27BA00A91F99 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		523EB266287D27BA00A91F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523EB269287D27BA00A91F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		523EB26F287D27BA00A91F99 /* Crossword Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		523EB271287D27BA00A91F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		523EB273287D27BA00A91F99 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		523EB276287D27BA00A91F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523EB278287D27BA00A91F99 /* Crossword_Puzzle_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crossword_Puzzle_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523EB233287D27B900A91F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB24E287D27BA00A91F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB25C287D27BA00A91F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB26C287D27BA00A91F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523EB228287D27B500A91F99 = {
+			isa = PBXGroup;
+			children = (
+				523EB22D287D27B600A91F99 /* Crossword Puzzle Shared */,
+				523EB238287D27B900A91F99 /* Crossword Puzzle iOS */,
+				523EB249287D27BA00A91F99 /* Crossword Puzzle watchOS App */,
+				523EB255287D27BA00A91F99 /* Crossword Puzzle watchOS App Extension */,
+				523EB260287D27BA00A91F99 /* Crossword Puzzle tvOS */,
+				523EB270287D27BA00A91F99 /* Crossword Puzzle macOS */,
+				523EB237287D27B900A91F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523EB22D287D27B600A91F99 /* Crossword Puzzle Shared */ = {
+			isa = PBXGroup;
+			children = (
+				523EB22E287D27B600A91F99 /* Actions.sks */,
+				523EB22F287D27B600A91F99 /* GameScene.sks */,
+				523EB230287D27B600A91F99 /* GameScene.swift */,
+				523EB231287D27B900A91F99 /* Assets.xcassets */,
+			);
+			path = "Crossword Puzzle Shared";
+			sourceTree = "<group>";
+		};
+		523EB237287D27B900A91F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523EB236287D27B900A91F99 /* Crossword Puzzle.app */,
+				523EB245287D27BA00A91F99 /* Crossword Puzzle.app */,
+				523EB251287D27BA00A91F99 /* Crossword Puzzle Extension.appex */,
+				523EB25F287D27BA00A91F99 /* Crossword Puzzle.app */,
+				523EB26F287D27BA00A91F99 /* Crossword Puzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523EB238287D27B900A91F99 /* Crossword Puzzle iOS */ = {
+			isa = PBXGroup;
+			children = (
+				523EB239287D27B900A91F99 /* AppDelegate.swift */,
+				523EB23B287D27B900A91F99 /* GameViewController.swift */,
+				523EB23D287D27B900A91F99 /* Main.storyboard */,
+				523EB240287D27B900A91F99 /* LaunchScreen.storyboard */,
+			);
+			path = "Crossword Puzzle iOS";
+			sourceTree = "<group>";
+		};
+		523EB249287D27BA00A91F99 /* Crossword Puzzle watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				523EB24A287D27BA00A91F99 /* Interface.storyboard */,
+			);
+			path = "Crossword Puzzle watchOS App";
+			sourceTree = "<group>";
+		};
+		523EB255287D27BA00A91F99 /* Crossword Puzzle watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				523EB256287D27BA00A91F99 /* InterfaceController.swift */,
+				523EB258287D27BA00A91F99 /* ExtensionDelegate.swift */,
+				523EB25A287D27BA00A91F99 /* Info.plist */,
+			);
+			path = "Crossword Puzzle watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		523EB260287D27BA00A91F99 /* Crossword Puzzle tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				523EB261287D27BA00A91F99 /* AppDelegate.swift */,
+				523EB263287D27BA00A91F99 /* GameViewController.swift */,
+				523EB265287D27BA00A91F99 /* Main.storyboard */,
+				523EB268287D27BA00A91F99 /* LaunchScreen.storyboard */,
+			);
+			path = "Crossword Puzzle tvOS";
+			sourceTree = "<group>";
+		};
+		523EB270287D27BA00A91F99 /* Crossword Puzzle macOS */ = {
+			isa = PBXGroup;
+			children = (
+				523EB271287D27BA00A91F99 /* AppDelegate.swift */,
+				523EB273287D27BA00A91F99 /* GameViewController.swift */,
+				523EB275287D27BA00A91F99 /* Main.storyboard */,
+				523EB278287D27BA00A91F99 /* Crossword_Puzzle_macOS.entitlements */,
+			);
+			path = "Crossword Puzzle macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		523EB235287D27B900A91F99 /* Crossword Puzzle iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523EB292287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle iOS" */;
+			buildPhases = (
+				523EB232287D27B900A91F99 /* Sources */,
+				523EB233287D27B900A91F99 /* Frameworks */,
+				523EB234287D27B900A91F99 /* Resources */,
+				523EB291287D27BA00A91F99 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523EB248287D27BA00A91F99 /* PBXTargetDependency */,
+			);
+			name = "Crossword Puzzle iOS";
+			productName = "Crossword Puzzle iOS";
+			productReference = 523EB236287D27B900A91F99 /* Crossword Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		523EB244287D27BA00A91F99 /* Crossword Puzzle watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523EB28E287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle watchOS App" */;
+			buildPhases = (
+				523EB243287D27BA00A91F99 /* Resources */,
+				523EB28D287D27BA00A91F99 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523EB254287D27BA00A91F99 /* PBXTargetDependency */,
+			);
+			name = "Crossword Puzzle watchOS App";
+			productName = "Crossword Puzzle watchOS App";
+			productReference = 523EB245287D27BA00A91F99 /* Crossword Puzzle.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		523EB250287D27BA00A91F99 /* Crossword Puzzle watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523EB28A287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle watchOS App Extension" */;
+			buildPhases = (
+				523EB24D287D27BA00A91F99 /* Sources */,
+				523EB24E287D27BA00A91F99 /* Frameworks */,
+				523EB24F287D27BA00A91F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crossword Puzzle watchOS App Extension";
+			productName = "Crossword Puzzle watchOS App Extension";
+			productReference = 523EB251287D27BA00A91F99 /* Crossword Puzzle Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		523EB25E287D27BA00A91F99 /* Crossword Puzzle tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523EB295287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle tvOS" */;
+			buildPhases = (
+				523EB25B287D27BA00A91F99 /* Sources */,
+				523EB25C287D27BA00A91F99 /* Frameworks */,
+				523EB25D287D27BA00A91F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crossword Puzzle tvOS";
+			productName = "Crossword Puzzle tvOS";
+			productReference = 523EB25F287D27BA00A91F99 /* Crossword Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		523EB26E287D27BA00A91F99 /* Crossword Puzzle macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523EB298287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle macOS" */;
+			buildPhases = (
+				523EB26B287D27BA00A91F99 /* Sources */,
+				523EB26C287D27BA00A91F99 /* Frameworks */,
+				523EB26D287D27BA00A91F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crossword Puzzle macOS";
+			productName = "Crossword Puzzle macOS";
+			productReference = 523EB26F287D27BA00A91F99 /* Crossword Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523EB229287D27B500A91F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					523EB235287D27B900A91F99 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					523EB244287D27BA00A91F99 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					523EB250287D27BA00A91F99 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					523EB25E287D27BA00A91F99 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					523EB26E287D27BA00A91F99 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 523EB22C287D27B500A91F99 /* Build configuration list for PBXProject "Crossword Puzzle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 523EB228287D27B500A91F99;
+			productRefGroup = 523EB237287D27B900A91F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523EB235287D27B900A91F99 /* Crossword Puzzle iOS */,
+				523EB244287D27BA00A91F99 /* Crossword Puzzle watchOS App */,
+				523EB250287D27BA00A91F99 /* Crossword Puzzle watchOS App Extension */,
+				523EB25E287D27BA00A91F99 /* Crossword Puzzle tvOS */,
+				523EB26E287D27BA00A91F99 /* Crossword Puzzle macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523EB234287D27B900A91F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB27C287D27BA00A91F99 /* GameScene.sks in Resources */,
+				523EB23F287D27B900A91F99 /* Main.storyboard in Resources */,
+				523EB279287D27BA00A91F99 /* Actions.sks in Resources */,
+				523EB242287D27B900A91F99 /* LaunchScreen.storyboard in Resources */,
+				523EB284287D27BA00A91F99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB243287D27BA00A91F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB285287D27BA00A91F99 /* Assets.xcassets in Resources */,
+				523EB24C287D27BA00A91F99 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB24F287D27BA00A91F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB27D287D27BA00A91F99 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB25D287D27BA00A91F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB27E287D27BA00A91F99 /* GameScene.sks in Resources */,
+				523EB267287D27BA00A91F99 /* Main.storyboard in Resources */,
+				523EB27A287D27BA00A91F99 /* Actions.sks in Resources */,
+				523EB26A287D27BA00A91F99 /* LaunchScreen.storyboard in Resources */,
+				523EB286287D27BA00A91F99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB26D287D27BA00A91F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB277287D27BA00A91F99 /* Main.storyboard in Resources */,
+				523EB27F287D27BA00A91F99 /* GameScene.sks in Resources */,
+				523EB287287D27BA00A91F99 /* Assets.xcassets in Resources */,
+				523EB27B287D27BA00A91F99 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523EB232287D27B900A91F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB280287D27BA00A91F99 /* GameScene.swift in Sources */,
+				523EB23C287D27B900A91F99 /* GameViewController.swift in Sources */,
+				523EB23A287D27B900A91F99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB24D287D27BA00A91F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB281287D27BA00A91F99 /* GameScene.swift in Sources */,
+				523EB259287D27BA00A91F99 /* ExtensionDelegate.swift in Sources */,
+				523EB257287D27BA00A91F99 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB25B287D27BA00A91F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB282287D27BA00A91F99 /* GameScene.swift in Sources */,
+				523EB264287D27BA00A91F99 /* GameViewController.swift in Sources */,
+				523EB262287D27BA00A91F99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523EB26B287D27BA00A91F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EB283287D27BA00A91F99 /* GameScene.swift in Sources */,
+				523EB274287D27BA00A91F99 /* GameViewController.swift in Sources */,
+				523EB272287D27BA00A91F99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523EB248287D27BA00A91F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523EB244287D27BA00A91F99 /* Crossword Puzzle watchOS App */;
+			targetProxy = 523EB247287D27BA00A91F99 /* PBXContainerItemProxy */;
+		};
+		523EB254287D27BA00A91F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523EB250287D27BA00A91F99 /* Crossword Puzzle watchOS App Extension */;
+			targetProxy = 523EB253287D27BA00A91F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		523EB23D287D27B900A91F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EB23E287D27B900A91F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523EB240287D27B900A91F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EB241287D27B900A91F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		523EB24A287D27BA00A91F99 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EB24B287D27BA00A91F99 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		523EB265287D27BA00A91F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EB266287D27BA00A91F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523EB268287D27BA00A91F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EB269287D27BA00A91F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		523EB275287D27BA00A91F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EB276287D27BA00A91F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523EB288287D27BA00A91F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		523EB289287D27BA00A91F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		523EB28B287D27BA00A91F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Crossword Puzzle watchOS App Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Crossword Puzzle watchOS App Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Crossword Puzzle Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		523EB28C287D27BA00A91F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Crossword Puzzle watchOS App Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Crossword Puzzle watchOS App Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Crossword Puzzle Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		523EB28F287D27BA00A91F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Crossword_Puzzle_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crossword Puzzle";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "TBD.Crossword-Puzzle";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle.watchkitapp";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		523EB290287D27BA00A91F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Crossword_Puzzle_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crossword Puzzle";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "TBD.Crossword-Puzzle";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle.watchkitapp";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		523EB293287D27BA00A91F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523EB294287D27BA00A91F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523EB296287D27BA00A91F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		523EB297287D27BA00A91F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523EB299287D27BA00A91F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Crossword Puzzle macOS/Crossword_Puzzle_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		523EB29A287D27BA00A91F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Crossword Puzzle macOS/Crossword_Puzzle_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBD.Crossword-Puzzle";
+				PRODUCT_NAME = "Crossword Puzzle";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523EB22C287D27B500A91F99 /* Build configuration list for PBXProject "Crossword Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EB288287D27BA00A91F99 /* Debug */,
+				523EB289287D27BA00A91F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523EB28A287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EB28B287D27BA00A91F99 /* Debug */,
+				523EB28C287D27BA00A91F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523EB28E287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EB28F287D27BA00A91F99 /* Debug */,
+				523EB290287D27BA00A91F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523EB292287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EB293287D27BA00A91F99 /* Debug */,
+				523EB294287D27BA00A91F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523EB295287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EB296287D27BA00A91F99 /* Debug */,
+				523EB297287D27BA00A91F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523EB298287D27BA00A91F99 /* Build configuration list for PBXNativeTarget "Crossword Puzzle macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EB299287D27BA00A91F99 /* Debug */,
+				523EB29A287D27BA00A91F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523EB229287D27B500A91F99 /* Project object */;
+}
